@@ -1,0 +1,29 @@
+body {
+	color: #e8e8e8;
+}
+
+a,a:hover {
+	color: #0078d4;
+}
+
+blockquote {
+	border-color: #e8e8e8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #e8e8e8;
+}
+
+.site-description a,
+.site-description a:hover {
+	color: #e8e8e8;
+}
+
+.post-tags .tags a {
+  border: 1px solid #e8e8e8;
+color: #e8e8e8;
+}
+
+.site-title a {
+	color: #e8e8e8;
+}
