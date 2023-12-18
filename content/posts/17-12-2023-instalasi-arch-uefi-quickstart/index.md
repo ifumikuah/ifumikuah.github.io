@@ -2,12 +2,7 @@
 title: "Instalasi Arch Linux (No-BS) /w UEFI"
 date: 2023-12-17T19:34:51+0700
 description: "Instalasi Arch Linux di Device UEFI/EFI/GPT Tanpa BS. Instalasi menggunakan kabel LAN dengan grub, networkmanager, dan gnome sebagai software tambahan saat post-instalasi."
-tags: [linux, tech, software]
-
-resources:
-    - name: partition-sizing
-      src: "partition-sizing.png"
-      title: Contoh partisi 7.5GB
+tags: [archlinux, linux, tech, software]
 ---
 
 Harap membaca persyaratan sebelum memulai tahap Instal Arch Linux.
@@ -60,7 +55,7 @@ Spesifikasi partisi, disk size dan partisi yang akan dibuat selama proses instal
 
 ### Terhubung ke Internet
 
-Semenjak kamu menggunakan kabel LAN, maka sudah otomatis terhubung ke jaringan internet. Jika kamu menggunakan wi-fi, lihat artikel ini.
+Semenjak kamu menggunakan kabel LAN, maka sudah otomatis terhubung ke jaringan internet. Jika kamu menggunakan wi-fi, [lihat artikel ini](posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/).
 
 Test respon dengan `ping 8.8.8.8`
 
