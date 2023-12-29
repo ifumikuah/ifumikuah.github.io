@@ -59,7 +59,7 @@ Ini merefleksikan bahwa kapabilitas seorang politisi dalam pemerintahan merepres
 
 Demokrasi bisa menghasilkan sebuah *tirani mayoritas* dimana keinginan atau keputusan yang diambil mayoritas cenderung berlawanan bahkan merugikan minoritas di negara tersebut.
 
-Tirani mayoritas ini cenderung menghasilkan sebuah *politik identitas*, dimana mayoritas terpilih menunjukan jati dirinya sebagai kelompok, ras atau agama tertentu dengan membuat peraturan/keputusan yang mendiskriminasi minoritas ataupun kelompok, ras atau agama yang menjadi oposisinya.
+Tirani mayoritas ini menghasilkan sebuah *politik identitas*, dimana mayoritas terpilih menunjukan jati dirinya sebagai kelompok, ras atau agama tertentu dengan membuat peraturan/keputusan yang mendiskriminasi minoritas ataupun kelompok, ras atau agama oposisinya.
 
 ### Money Politics
 
