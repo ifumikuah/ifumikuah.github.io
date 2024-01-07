@@ -1,7 +1,7 @@
 ---
 title: "Epistemology"
 date: 2024-01-03T04:58:13+0700
-description: "Epistemologi, cabang filosofi yang mempelajari tentang pengetahuan"
+description: "Epistemologi, cabang filosofi yang mempelajari tentang pengetahuan."
 tags: [philosophy]
 ---
 
