@@ -1,0 +1,21 @@
+[[main]]
+  name = "Artikel"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Tag"
+  pageRef = "tags"
+  weight = 30
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+
+[[main]]
+  identifier = "locale"
+  weight = 100
+  [main.params]
+    action = "locale"
