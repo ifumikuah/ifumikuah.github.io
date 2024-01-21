@@ -1,6 +1,6 @@
 ---
-title: "(Un)based Democracy"
-date: 2023-12-21T12:27:13+0700
+title: "Mengapa SDM rendah tidak bisa memiliki demokrasi"
+date: 2023-12-21
 description: "Opini mengenai demokrasi, sistem pemerintahan yang hype di abad 20 dan alasan kenapa demokrasi tidak bisa berjalan dengan baik."
 tags: [politik, opini]
 ---
@@ -55,11 +55,11 @@ Kelemahan terbesar dalam demokrasi adalah orang yang terlibat oleh demokrasi itu
 
 Ini merefleksikan bahwa kapabilitas seorang politisi dalam pemerintahan merepresentasikan pola pikir, mentalitas atau kultur dari mayoritas masyarakat sebuah negara yang menganut sistem ini.
 
-### Identity Politics
+<!--- ### Identity Politics
 
 Demokrasi bisa menghasilkan sebuah *tirani mayoritas* dimana keinginan atau keputusan yang diambil mayoritas cenderung berlawanan bahkan merugikan minoritas di negara tersebut.
 
-Tirani mayoritas ini menghasilkan sebuah *politik identitas*, dimana mayoritas terpilih menunjukan jati dirinya sebagai kelompok, ras atau agama tertentu dengan membuat peraturan/keputusan yang mendiskriminasi minoritas ataupun kelompok, ras atau agama oposisinya.
+Tirani mayoritas ini menghasilkan sebuah *politik identitas*, dimana mayoritas terpilih menunjukan jati dirinya sebagai kelompok, ras atau agama tertentu dengan membuat peraturan/keputusan yang mendiskriminasi minoritas ataupun kelompok, ras atau agama oposisinya. --->
 
 ### Money Politics
 

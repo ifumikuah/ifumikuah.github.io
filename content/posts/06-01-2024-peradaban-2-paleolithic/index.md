@@ -1,7 +1,6 @@
 ---
 title: "Peradaban #2: Paleolithic"
-date: 2024-01-06T18:06:13+0700
-description: "Periode Paleolithic, periode dengan durasi paling lama dalam sejarah manusia ditandai dengan penggunaan alat dari tulang dan batu primitif, Ooga Booga..."
+date: 2024-01-06
 tags: [sejarah, peradaban]
 ---
 

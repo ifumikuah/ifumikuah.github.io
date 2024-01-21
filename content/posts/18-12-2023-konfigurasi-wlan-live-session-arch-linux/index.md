@@ -1,6 +1,6 @@
 ---
 title: "Konfigurasi WLAN di Live Session Arch Linux"
-date: 2023-12-18T19:37:13+0700
+date: 2023-12-18
 description: "Bagian dari \"Instalasi Arch Linux\", menjelaskan bagaimana cara terhubung ke internet melalui Wi-Fi di Live Session Arch Linux."
 tags: [archlinux, linux, teknologi, software]
 ---

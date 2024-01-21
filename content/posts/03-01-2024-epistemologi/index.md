@@ -1,7 +1,6 @@
 ---
 title: "Epistemology"
 date: 2024-01-03
-description: "Epistemologi, cabang filosofi yang mempelajari tentang pengetahuan."
 tags: [filosofi]
 ---
 
@@ -43,7 +42,7 @@ Contoh kedua adalah pernyataan “semua istri statusnya kawin”, tidak perlu me
 
 #### **A posteriori**
 
-Pengetahuan yang diperoleh melalui observasi langsung atau menggunakan indera (bisa dilihat, diraba, dirasakan). Pengetahuan ini bersifat induktif, realistis dan empiris. Ilmu pengetahuan seperti sains, biologi, fisika dan sejenisnya termasuk kedalam kategori ini.
+Pengetahuan yang diperoleh melalui observasi langsung atau menggunakan indera (bisa dilihat, diraba, dirasakan ( ͡° ͜ʖ ͡°)). Pengetahuan ini bersifat induktif, realistis dan empiris. Ilmu pengetahuan seperti sains, biologi, fisika dan sejenisnya termasuk kedalam kategori ini.
 
 Contohnya adalah pengetahuan tentang uranium sebagai bahan bakar nuklir, perubahan suhu di ketinggian yang berbeda, fusi dan fisi nuklir dan masih banyak.
 

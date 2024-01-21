@@ -1,6 +1,6 @@
 ---
 title: "Instalasi Arch Linux /w UEFI"
-date: 2023-12-17T19:34:51+0700
+date: 2023-12-17
 description: "Instalasi Arch Linux di Device UEFI/EFI/GPT Tanpa BS. Instalasi menggunakan kabel LAN dengan grub, networkmanager, dan gnome sebagai software tambahan saat post-instalasi."
 tags: [archlinux, linux, teknologi, software]
 ---
