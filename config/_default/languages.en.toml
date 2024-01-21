@@ -1,22 +1,28 @@
 languageCode = "en"
 languageName = "English"
 languageDirection = "ltr"
-weight = 1
+weight = 2
 
-title = "Congo"
-copyright = "2024 Muhammad Fadhil Suheri"
+title = "Codex Detrux"
+copyright = "© 2024 Muhammad Fadhil Suheri"
 
 [params]
   dateFormat = "2 January 2006"
 
-  # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  mainSections = ["posts"]
+  description = "Personal Blog"
 
 [author]
-  # name = "Your name here"
-  # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
+  name = "Muhammad Fadhil Suheri"
+  image = "img/profile.jpg"
+  headline = "Personal Blog"
+  bio = "A Begineer Front-end Developer who are interested in history, civilization and mankind"
+
+  links = [
+     { email = "mailto:detruxified@proton.me" },
+     { discord = "https://discord.gg/W54aWpuU" },
+     { github = "https://github.com/ifumikuah" }
+  ]
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

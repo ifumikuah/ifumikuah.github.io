@@ -1,8 +1,8 @@
 ---
 title: "Epistemology"
-date: 2024-01-03T04:58:13+0700
+date: 2024-01-03
 description: "Epistemologi, cabang filosofi yang mempelajari tentang pengetahuan."
-tags: [philosophy]
+tags: [filosofi]
 ---
 
 Berasal dari Bahasa Yunani kuno `epistēmē` yang artinya “pengetahuan”, dan suffix `-logi` yang berasal dari `logos` artinya “menjelaskan” atau “yang menjelaskan tentang”.

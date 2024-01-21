@@ -2,7 +2,7 @@
 title: "Peradaban #2: Paleolithic"
 date: 2024-01-06T18:06:13+0700
 description: "Periode Paleolithic, periode dengan durasi paling lama dalam sejarah manusia ditandai dengan penggunaan alat dari tulang dan batu primitif, Ooga Booga..."
-tags: [history, peradaban]
+tags: [sejarah, peradaban]
 ---
 
 Paleolithic dimulai dari  c. 3mya - c. 10.000mya, periode ini di tandai dengan penyebaran manusia kuno, penjinakkan api dan penggunaan batu dan benda tumpul sebagai alat berburu.

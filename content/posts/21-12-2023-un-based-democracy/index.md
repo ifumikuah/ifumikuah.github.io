@@ -2,7 +2,7 @@
 title: "(Un)based Democracy"
 date: 2023-12-21T12:27:13+0700
 description: "Opini mengenai demokrasi, sistem pemerintahan yang hype di abad 20 dan alasan kenapa demokrasi tidak bisa berjalan dengan baik."
-tags: [politics, opinion]
+tags: [politik, opini]
 ---
 
 {{< figure src="/posts/21-12-2023-un-based-democracy/img/virgin-democracy.jpg" >}}
