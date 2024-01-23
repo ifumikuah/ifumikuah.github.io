@@ -458,5 +458,6 @@ input.addEventListener("change", function() {
 
 My complete final results can be found here:
 
-- [Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/self-miniprojects/color-palette-generator)
+- [Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/color-palette-generator)
+
 - [Source Code](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/color-palette-generator)
