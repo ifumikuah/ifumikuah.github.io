@@ -1,5 +1,5 @@
 ---
-title: "Mengapa SDM rendah tidak bisa memiliki demokrasi"
+title: "Thoughts: Mengapa SDM rendah tidak bisa memiliki demokrasi"
 date: 2023-12-21
 description: "Opini mengenai demokrasi, sistem pemerintahan yang hype di abad 20 dan alasan kenapa demokrasi tidak bisa berjalan dengan baik."
 tags: [politik, opini]
