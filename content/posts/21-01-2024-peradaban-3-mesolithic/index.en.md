@@ -1,5 +1,5 @@
 ---
-title: "Civilization #3: Mesolithic snd emergence of pottery"
+title: "Civilizations #3: Mesolithic and emergence of pottery"
 date: 2024-01-21
 tags: [history, civilization]
 ---

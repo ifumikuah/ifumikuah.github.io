@@ -1,5 +1,5 @@
 ---
-title: "Civilization #2: Paleolithic"
+title: "Civilizations #2: Paleolithic"
 date: 2024-01-06
 tags: [history, civilization]
 ---

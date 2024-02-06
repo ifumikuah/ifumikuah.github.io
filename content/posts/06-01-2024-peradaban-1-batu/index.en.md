@@ -1,5 +1,5 @@
 ---
-title: "Civilization #1: Stone"
+title: "Civilizations #1: Stone"
 date: 2024-01-06
 tags: [history, civilization]
 ---

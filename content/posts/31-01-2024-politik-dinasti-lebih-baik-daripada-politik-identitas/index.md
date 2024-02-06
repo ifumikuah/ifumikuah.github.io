@@ -37,7 +37,7 @@ Apapun agendanya, misal kepentingan politikmu ingin menumbangkan sebuah kekuasaa
 
 Politisasi agama sangat mudah dilakukan Ketika suatu kelompok sudah putus asa, berfikir secara irrasional, dan selalu menggunakan dalil dalil agama sebagai pembenaran atas apa yang dia lakukan.
 
-Mentalitas seperti ini biasanya <u>terjadi karena faktor ekonomi dan kurangnya pengetahuan dan literasi seseorang</u> sehingga dia selalu menggunakan agama dimanapun sebagai pembenaraannya
+Mentalitas seperti ini biasanya <u>terjadi karena faktor ekonomi dan kurangnya pengetahuan dan literasi seseorang</u> sehingga dia selalu menggunakan agama dimanapun sebagai pembenaraannya.
 
 Karena dalil agama selalu menawarkan alternatif yang singkat dan sangat mudah dicerna bagi siapapun, namun kenyataannya bukan seperti itu.
 
@@ -49,3 +49,8 @@ Misal, alquran itu kitab/buku yang sangat sakral isinya dan tulisannya. Namun me
 
 Atau, tulisan yang ada di alquran itu sangat sacral tulisannya, namun Ketika itu sudah menjadi pemikiran manusia, mereka hanya akan bisa menafsirkannya terbatas pada akal manusia. Karena kalimat yang turun dari tuhan itu absolut dan tidak ada tafsiran yang absolut Ketika itu di interpretasikan oleh manusia.
 
+## Referensi
+
+- https://www.hudson.org/human-rights/politicizing-religion
+
+- https://serambimata.com/2018/04/20/jika-ingin-menguasai-orang-bodoh-bungkus-yang-batil-dengan-agama
