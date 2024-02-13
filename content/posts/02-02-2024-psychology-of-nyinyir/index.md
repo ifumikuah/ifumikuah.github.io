@@ -1,5 +1,5 @@
 ---
-title: "Thoughts: Nyinyiran si pesimis"
+title: "Thoughts: Psychology of Nyinyir"
 date: 2024-02-02
 description: "Si mental pesimis yang kerjanya julid dan tidak percaya diri"
 tags: [opini]
@@ -27,7 +27,7 @@ Dia harus keluar dari goa dan menghadapi derasnya air hujan, gemuruh petir, ding
 
 ## Pandangan psikologi
 
-Ghibah adalah salah satu dari bentuk ekpresi atau pelampiasan atas kegagalanmu dalam suatu hal. Kamu mencari selimut yang hangat untuk menghangatkan dirimu dari dinginnya realita.
+Nyinyir adalah salah satu dari bentuk ekpresi atau pelampiasan atas kegagalanmu dalam suatu hal. Kamu mencari selimut yang hangat untuk menghangatkan dirimu dari dinginnya realita.
 
 ![dopamine](img/img02.jpg "Dopamine")
 
@@ -39,5 +39,5 @@ Sederhananya, dopamine instan tejadi ketika mendapatkan sebuah kesenangan dengan
 
 Manusia selalu mengasosiasikan dirinya kedalam suatu kelompok, itulah bukti bahwa kita makhuk sosial. Semakin buruk dirimu, maka akan semakin dijauhi orang baik. Jadi, daripada menghibah menggunjing tidak jelas bukankah lebih baik bertanya atau komunikasi kepada orang itu untuk melawan dan menghilangkan ketakutanmu untuk selamanya.
 
-Jika kau di nyinyirin atau orang tidak suka padamu, berusahalah untuk menjadi lebih sopan dan baik menghadapinya, perlahan tapi pasti, angin yang santai akan mengikis sebuah batu yang kasar.
+Jika kau di nyinyirin atau orang tidak suka padamu, berusahalah untuk menjadi lebih sopan dan baik menghadapinya, perlahan tapi pasti, air deras kuat mengalir akan mengikis sebuah batu yang kasar.
 
