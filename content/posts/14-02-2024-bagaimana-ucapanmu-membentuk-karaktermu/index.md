@@ -39,15 +39,15 @@ Diluar nalar, tapi olahraga merupakan cara terbaik untuk membangun sifat disipli
 
 ### Hindari Tidak Mungkin
 
-Jika berbicara soal keyakinan apakah kamu bisa melakukannya atau tidak, jangan pernah mengatakan hal "*tidak mungkin*", kamu harus mencari alternatif kata selain itu, misal: "*saya akan coba*...", "*saya pastikan, tapi*...".
+Jika berbicara soal keyakinan apakah kamu bisa melakukannya atau tidak, jangan pernah mengatakan hal "*tidak mungkin*", kamu harus mencari alternatif kata selain itu, misal: "*saya akan coba*...", "*saya pastikan*...".
 
-Keluarkan kata "*tidak mungkin*" jika kamu memiliki alasan yang jelas dan terstruktur kenapa kamu tidak mungkin melakukan hal itu.
+Keluarkan kata "*tidak mungkin*" jika kamu memiliki alasan yang jelas dan konkrit kenapa kamu tidak mungkin melakukan hal itu.
 
 ### Jangan Pernah Pesimis Terhadap Opini
 
-Ketika berpendapat/beropini, jangan dimulai dengan kata "*maaf*", karena kamu memiliki sebuah opini dan sudah pasti opini tersebut bisa dibantah oleh seseorang, tidak ada yang namanya opini absolut karena setiap orang memiliki opini sendiri yang berbeda-beda.
+Ketika berpendapat/beropini, jangan dimulai dengan kata "*maaf*", karena kamu memiliki sebuah opini dan sudah pasti opini tersebut bisa dibantah oleh siapapun, tidak ada yang namanya opini absolut karena setiap orang memiliki opini sendiri yang berbeda-beda.
 
-Ketika opinimu "dikalahkan" oleh seseorang, jangan kurang pede dan malu akan hal itu. Jadikan omongan seseorang tersebut sebagai bahan evaluasi dan improvisasi diri.
+Ketika opinimu "dikalahkan" oleh seseorang, jangan kurang pede dan malu akan hal itu. Jadikan omongan orang tersebut sebagai bahan evaluasi dan improvisasi diri.
 
 ### Stop Melabeli Dirimu
 
