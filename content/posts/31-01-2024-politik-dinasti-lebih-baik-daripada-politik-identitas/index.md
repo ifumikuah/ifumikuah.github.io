@@ -3,6 +3,7 @@ title: "Thoughts: Politik dinasti lebih baik daripada politik identitas"
 date: 2024-01-31
 description: "Politik identitas agama adalah manuver paling menjijikan dalam berpolitik"
 tags: [opini, politik]
+draft: true
 ---
 
 > Membungkus kotoran dengan sebuah kertas halaman kitab suci adalah gambaran yang tepat ketika seseorang menggunakan agama untuk kepentingan politik
