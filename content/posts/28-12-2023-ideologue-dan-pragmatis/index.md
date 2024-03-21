@@ -1,8 +1,8 @@
 ---
-title: "Ideologue dan Pragmatis"
+title: "Sociologist Note: Ideologue dan Pragmatis"
 date: 2023-12-28
 description: "Overview mengenai pola pikir seorang ideologue dan pragmatis dan apa dampak dari orang-orang yang memiliki diantara dua pola pikir ini."
-tags: [politik, opini, filosofi]
+tags: [politik, opini, filosofi, sosiologi]
 ---
 
 Dalam menyelesaikan masalah, ada dua pendekatan yang dipakai yaitu ideologue dan pragmatis, kedua ini adalah pola pikir seseorang dalam menentukan penyelesaian terhadap masalah yang dihadapi.
