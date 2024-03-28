@@ -93,7 +93,7 @@ Beberapa orang kehilangan motivasi dan tidak tahu arah karena mereka terputus at
 
 Salah satu bukti yang sering kita alami dari adaptasi mental dan kesehatan ini adalah *circadian rhythm*, jam internal dalam otak manusia yang mengatur kapan waktunya tidur dan bangun, terdisrupsi oleh jam tidur tengah malam akibat lembur dan memasang alarm untuk hari esoknya, menyisakan jam tidur hanya 3 jam untukmu dan akibatnya, emosional terganggu dan ini berpotensi mendatangkan penyakit baru.
 
-Ritme *circadian* ini bisa saja hasil peninggalan nenek moyang kita ratusan tahun lalu yang membuat jadwal tidur 8 jam di malam hari dan berburu di siang hari.
+Ritme *circadian* ini bisa saja hasil peninggalan nenek moyang kita ratusan ribu tahun lalu yang membuat jadwal tidur 8 jam di malam hari dan berburu di siang hari.
 
 ## Bagaimana manusia terus beradaptasi kedepannya
 

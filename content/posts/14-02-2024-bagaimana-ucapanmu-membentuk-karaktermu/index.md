@@ -11,7 +11,7 @@ Orang orang yang seperti disebutkan sudah pasti 100% kamu jumpai dalam keadaan e
 
 ## Alam bawah sadar mengiterpretasikannya
 
-Ini yang berbahaya, ternyata psikologis menemukan bahwa perkataan pesimis yang sering keluar dari mulutmu, secara tidak disadari akan diinterpretasi oleh alam bawah sadar (*subconsciousness*).
+Ini yang berbahaya, ternyata psikolog menemukan bahwa perkataan pesimis yang sering keluar dari mulutmu, secara tidak disadari akan diinterpretasi oleh alam bawah sadar (*subconsciousness*).
 
 ![subconsciousness](img/img01.jpg "Alam bawah sadar merepresentasikan 90% dari proses otak")
 
@@ -23,7 +23,7 @@ Lingkungan sekitar dan pendidikan memainkan peran besar dalam membentuk mentalit
 
 Dalam sebuah pertemanan seseorang pasti memiliki mentalitas yang sama dengan setidaknya 3 teman lainnya. Maka dari itu, jika kamu memiliki 4 teman ambisius, maka kamu pasti terikut menjadi ambisius juga selama masih berteman dengan mereka.
 
-Selain lingkup pertemanan, didikan orang tua juga sangat berpengaruh terhadap hal ini, kamu pasti terpengaruh dengan mentalitas yang orang tua mu miliki, selain itu cara orang tua mu mendidik juga berpengaruh terhadap karaktermu. Seorang yang tidak bisa mengambil keputusan dan bertanggung jawab biasanya sangat dimanja oleh orang tuanya semasa kacil.
+Selain lingkup pertemanan, didikan orang tua juga sangat berpengaruh terhadap hal ini, kamu pasti terpengaruh dengan mentalitas yang orang tua mu miliki, selain itu cara orang tua mu mendidik juga berpengaruh terhadap karaktermu. Seorang yang tidak bisa mengambil keputusan dan bertanggung jawab biasanya sangat dimanja oleh orang tuanya semasa kecil.
 
 ## Cara berubah
 
@@ -31,7 +31,7 @@ Ada banyak jalan untuk angkat kaki dari mental *inferior* ini, satu satunya tuju
 
 ### Baca Lebih Banyak
 
-Membaca lebih banyak literasi tentang self-improvement, gunakan poin poin penting yang ada dalam buku itu sebagai alat pembenaranmu, secara tidak disadari kamu akan menjadi lebih positif dalam menghadapi masalah.
+Membaca lebih banyak literatur tentang self-improvement, gunakan poin poin penting yang ada dalam buku itu sebagai alat pembenaranmu, secara tidak disadari kamu akan menjadi lebih positif dalam menghadapi masalah.
 
 ### Olahraga
 
@@ -52,6 +52,8 @@ Ketika opinimu "dikalahkan" oleh seseorang, jangan kurang pede dan malu akan hal
 ### Stop Melabeli Dirimu
 
 Jangan pernah bilang hal buruk mengenai dirimu. Jika kau sadar punya hal buruk dalam dirimu, coba untuk merubah hal itu. Mungkin hal buruk yang baru lagi akan datang ke dirimu, tetap ubah hal buruk itu juga dan terus menerus, kamu tidak akan pernah selesai.
+
+Tidak peduli seberapa baik Anda, akan selalu ada orang yang melihat Anda sebagai orang yang buruk.
 
 > Karena sejatinya manusia tidak ada yang sempurna.
 
