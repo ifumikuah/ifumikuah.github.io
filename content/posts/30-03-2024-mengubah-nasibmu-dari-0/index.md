@@ -3,7 +3,6 @@ title: "Mengubah nasib dari nol"
 date: 2024-03-29
 description: "Roadmap penulis untuk mencapai cita-citanya bermodalkan apa yang dia punya saat ini"
 tags: [opinion]
-draft: true
 ---
 
 Catatan ini terinspirasi dari video YouTube **Timothy Ronald: Ini Yang Bakal Gua Lakuin Kalo Mulai Lagi Dari 0**. Bedanya dengan penulis adalah privilege dan capital yang berada di otaknya (ilmu), karena setiap orang berbeda beda.

@@ -3,7 +3,6 @@ title: "Thoughts: Perkuliahan"
 date: 2024-03-29
 description: "Pendapat penulis mengenai perkuliahan in general"
 tags: [opinion]
-draft: true
 ---
 
 Saya menganggap Masuk Universitas adalah investasi yang sangat high effort high return. Ketika kamu berkuliah, kamu harus memanfaatkan segala aspek yang ada diperkuliahan itu seefektif mungkin, tapi pemanfaatan ini pastinya akan memakan cost tenaga dan material yang besar juga.
