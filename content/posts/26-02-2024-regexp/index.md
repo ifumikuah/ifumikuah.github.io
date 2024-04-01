@@ -3,6 +3,7 @@ title: "RegExp"
 date: 2024-02-26
 description: "Menggunakan regex untuk manipulasi string"
 tags: [teknologi, webdev]
+draft: true
 ---
 
 Apa itu RegExp? Regular Expression atau RegExp adalah cara untuk memanipulasi string, sintaks RegExp ini dipakai di berbagai bahasa mulai dari Python, JavaScript, Java, PHP, dan lainnya.

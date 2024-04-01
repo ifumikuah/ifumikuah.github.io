@@ -3,6 +3,7 @@ title: "Thoughts: Psychology of Nyinyir"
 date: 2024-02-02
 description: "Si mental pesimis yang kerjanya julid dan tidak percaya diri"
 tags: [opini]
+draft: true
 ---
 
 Disini penulis menggunakan *Nyinyir*, *Julid*, *Ghibah*, *Mengunjing*, *Mencaci maki* secara interchangebly karena ada di kategori yang sama dan kenapa ucapan terhadap orang yang kamu ghibah dan caci adalah ketakutan terbesarmu yang sebenarnya?.
