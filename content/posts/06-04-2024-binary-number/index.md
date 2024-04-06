@@ -98,6 +98,19 @@ $$
   22_{10} = 10110_2
 $$
 
+## Konversi Sebaliknya
+
+Untuk konversi ke desimal, kita harus perhatikan ada berapa digit dari \\(n_2\\).
+
+Contoh \\(10110_2\\), ada 5 digit:
+
+Maka yang dilakukan adalah menambahkan \\({dn}*2^d\\) di setiap digitnya. Dimulai dari angka paling kanan adalah ditambah \\(2^0\\)
+
+$$
+  (1\ast2^4) + (0\ast2^3) + (1\ast2^2) + (1\ast2^1) + (0\ast2^0) \\\
+  16 + 0 + 4 + 2 + 0 = 22
+$$
+
 ## Apakah kita bisa membuat sistem bilangan sendiri?
 
 [Ya](../06-04-2024-base-5/).
