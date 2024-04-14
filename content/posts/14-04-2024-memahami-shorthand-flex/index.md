@@ -39,7 +39,7 @@ Ini artinya masing-masing item memiliki ukuran \\(\dfrac{1}{5} \\) dari ukuran c
 
 **Bagaimana jika salah satunya mendapatkan `flex-grow: 3`**?
 
-![img01](./img/img02.png "C mendapatkan `flex-grow: 3`")
+![img02](./img/img02.png "C mendapatkan `flex-grow: 3`")
 
 Ini artinya item selain C masih mendapatkan 1, sedangkan item C mendapatkan 3.
 

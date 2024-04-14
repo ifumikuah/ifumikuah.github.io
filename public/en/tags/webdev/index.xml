@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdev on Codex Detrux</title>
+    <link>http://localhost:1313/en/tags/webdev/</link>
+    <description>Recent content in Webdev on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding shorthand flex in CSS</title>
+      <link>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</guid>
+      <description>Flexbox is a 2-dimensional CSS layout that is often used for responsive screen needs.</description>
+    </item>
+    <item>
+      <title>Input and Form Submission I</title>
+      <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</guid>
+      <description>This article contains how to create and what are the inputs in HTML and how to process them in JS so that the data can be processed further.</description>
+    </item>
+    <item>
+      <title>Input and Form Submission II</title>
+      <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</guid>
+      <description>This article is a continuation of the previous one.</description>
+    </item>
+    <item>
+      <title>Playing with images in CSS</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</guid>
+      <description>How to deal with your images in CSS that are very difficult to control, ranging from improper proportions, improper image position, svg and so on.</description>
+    </item>
+    <item>
+      <title>Playing with images in CSS: Background Edition</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</guid>
+      <description>There are two types of images that can be used when creating images in webdev, the &amp;lt;img&amp;gt; element method as before and the background-image method from CSS.</description>
+    </item>
+    <item>
+      <title>Webdev Project: Playing colors with Javascript</title>
+      <link>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</guid>
+      <description>Play with colors in JavaScript by creating a simple color palette webapp.</description>
+    </item>
+  </channel>
+</rss>

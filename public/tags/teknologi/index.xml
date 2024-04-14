@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teknologi on Codex Detrux</title>
+    <link>http://localhost:1313/tags/teknologi/</link>
+    <description>Recent content in Teknologi on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/teknologi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memahami shorthand flex di CSS</title>
+      <link>http://localhost:1313/posts/14-04-2024-memahami-shorthand-flex/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/14-04-2024-memahami-shorthand-flex/</guid>
+      <description>Flexbox adalah layout 2 dimensi CSS yang sering digunakan untuk kebutuhan responsive screen.</description>
+    </item>
+    <item>
+      <title>Base-2</title>
+      <link>http://localhost:1313/posts/06-04-2024-binary-number/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/06-04-2024-binary-number/</guid>
+      <description>Base-2 adalah sistem angka berbasis dua angka, hanya 0 dan 1.</description>
+    </item>
+    <item>
+      <title>Membuat sistem bilangan custom: Base-5</title>
+      <link>http://localhost:1313/posts/06-04-2024-base-5/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/06-04-2024-base-5/</guid>
+      <description>Setelah mempelajari Sistem Biner, kamu mungkin penasaran bagaimana caranya mebuat sistem bilangan sendiri?</description>
+    </item>
+    <item>
+      <title>Input dan Form Submission di JS I</title>
+      <link>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-i/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-i/</guid>
+      <description>Artikel ini berisikan tentang bagaimana cara membuat dan apa saja input di HTML dan bagaimana cara memprosesnya di JS supaya data tersebut dapat diproses lebih jauh lagi.</description>
+    </item>
+    <item>
+      <title>Input dan Form Submission di JS II</title>
+      <link>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-ii/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-ii/</guid>
+      <description>Artikel ini adalah lanjutan dari sebelumnya.</description>
+    </item>
+    <item>
+      <title>RegExp</title>
+      <link>http://localhost:1313/posts/26-02-2024-regexp/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/26-02-2024-regexp/</guid>
+      <description>Apa itu RegExp? Regular Expression atau RegExp adalah cara untuk memanipulasi string, sintaks RegExp ini dipakai di berbagai bahasa mulai dari Python, JavaScript, Java, PHP, dan lainnya.</description>
+    </item>
+    <item>
+      <title>Menjinakkan gambar di CSS</title>
+      <link>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css/</guid>
+      <description>Bagaimana cara menghadapi gambarmu di CSS yang sulit sekali rasanya untuk dikendalikan, mulai dari proporsi tidak sesuai, posisi gambar tidak sesuai, svg dan lainnya.</description>
+    </item>
+    <item>
+      <title>Menjinakkan gambar di CSS: Background Edition</title>
+      <link>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css-background/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css-background/</guid>
+      <description>Ada dua jenis gambar yang bisa digunakan ketika membuat gambar dalam webdev, metode element &amp;lt;img&amp;gt; seperti yang sebelumnya dan metode background-image dari CSS.</description>
+    </item>
+    <item>
+      <title>Webdev Project: Bermain dengan warna di javascript</title>
+      <link>http://localhost:1313/posts/21-01-2024-bermain-dengan-warna-di-javasript/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/21-01-2024-bermain-dengan-warna-di-javasript/</guid>
+      <description>Bermain dengan warna di Javascript dengan membuat webapp color palette sederhana.</description>
+    </item>
+    <item>
+      <title>Konfigurasi WLAN di Live Session Arch Linux</title>
+      <link>http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
+      <description>Cek nama device kamu dengan ip link, device wireless card biasanya punya nama berawalan “w”, misal.</description>
+    </item>
+    <item>
+      <title>Instalasi Arch Linux /w UEFI</title>
+      <link>http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
+      <description>Harap membaca persyaratan sebelum memulai tahap Instal Arch Linux.</description>
+    </item>
+  </channel>
+</rss>

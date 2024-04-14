@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Codex Detrux</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfigurasi WLAN di Live Session Arch Linux</title>
+      <link>http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
+      <description>Cek nama device kamu dengan ip link, device wireless card biasanya punya nama berawalan “w”, misal.</description>
+    </item>
+    <item>
+      <title>Instalasi Arch Linux /w UEFI</title>
+      <link>http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
+      <description>Harap membaca persyaratan sebelum memulai tahap Instal Arch Linux.</description>
+    </item>
+  </channel>
+</rss>

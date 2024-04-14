@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Codex Detrux</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in About Me on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding shorthand flex in CSS</title>
+      <link>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</guid>
+      <description>Flexbox is a 2-dimensional CSS layout that is often used for responsive screen needs.</description>
+    </item>
+    <item>
+      <title>Base-2</title>
+      <link>http://localhost:1313/en/posts/06-04-2024-binary-number/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-04-2024-binary-number/</guid>
+      <description>Base-2 is a number system based on two numbers, 0 and 1.</description>
+    </item>
+    <item>
+      <title>Making you own custom number system: Base-5</title>
+      <link>http://localhost:1313/en/posts/06-04-2024-base-5/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-04-2024-base-5/</guid>
+      <description>After learning about Binary System, you might be wondering how to create your own number system.</description>
+    </item>
+    <item>
+      <title>Input and Form Submission I</title>
+      <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</guid>
+      <description>This article contains how to create and what are the inputs in HTML and how to process them in JS so that the data can be processed further.</description>
+    </item>
+    <item>
+      <title>Input and Form Submission II</title>
+      <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</guid>
+      <description>This article is a continuation of the previous one.</description>
+    </item>
+    <item>
+      <title>Playing with images in CSS</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</guid>
+      <description>How to deal with your images in CSS that are very difficult to control, ranging from improper proportions, improper image position, svg and so on.</description>
+    </item>
+    <item>
+      <title>Playing with images in CSS: Background Edition</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</guid>
+      <description>There are two types of images that can be used when creating images in webdev, the &amp;lt;img&amp;gt; element method as before and the background-image method from CSS.</description>
+    </item>
+    <item>
+      <title>Sociologist Note: The Creation of Inequality</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-terbentuknya-ketimpangan/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-terbentuknya-ketimpangan/</guid>
+      <description>Surplus: Excess of Something #Inequality occurs because there is a surplus in the necessities.</description>
+    </item>
+    <item>
+      <title>Civilization #5: Copper as a turning point in mankind&#39;s technological progress</title>
+      <link>http://localhost:1313/en/posts/20-02-2024-peradaban-5-chalcolithic/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/20-02-2024-peradaban-5-chalcolithic/</guid>
+      <description>The Chalcolithic(5000SM - 3000SM) was a transitional period between the Neolithic and the Bronze Age.</description>
+    </item>
+    <item>
+      <title>Thoughts: How your words shape your character</title>
+      <link>http://localhost:1313/en/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/</guid>
+      <description>You must have often encountered someone, if you help him find a solution to get out of poverty, he will find many reasons that he can&amp;rsquo;t do it.</description>
+    </item>
+    <item>
+      <title>How farming creates your relevant problem</title>
+      <link>http://localhost:1313/en/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</guid>
+      <description>When you work hard for the food you buy at the grocery store, you realize that the food you buy must have come from a farmer.</description>
+    </item>
+    <item>
+      <title>Civilizations #4: Neolithic as pioneer of modern lifestyle</title>
+      <link>http://localhost:1313/en/posts/06-02-2024-peradaban-4-neolithic/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-02-2024-peradaban-4-neolithic/</guid>
+      <description>The Neolithic is the final period of the entire stone age, also known as the new stone age (νέος, néos, new + λίθος, líthos, stone).</description>
+    </item>
+    <item>
+      <title>Webdev Project: Playing colors with Javascript</title>
+      <link>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</guid>
+      <description>Play with colors in JavaScript by creating a simple color palette webapp.</description>
+    </item>
+    <item>
+      <title>Civilizations #3: Mesolithic and emergence of pottery</title>
+      <link>http://localhost:1313/en/posts/21-01-2024-peradaban-3-mesolithic/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-01-2024-peradaban-3-mesolithic/</guid>
+      <description>The Mesolithic is a transitional period between the Paleolithic and Neolithic.</description>
+    </item>
+    <item>
+      <title>Sociologist Note: Asabiyyah and Echo Chamber</title>
+      <link>http://localhost:1313/en/posts/14-01-2024-asabiyyah-dan-echo-chamber/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/14-01-2024-asabiyyah-dan-echo-chamber/</guid>
+      <description>The Concept of Asabiyyah in the Modern World #The concept put forward by Ibn Khaldun explains how the progress and decline of civilization is influenced by the close solidarity of a group by showing its identity.</description>
+    </item>
+    <item>
+      <title>Civilizations #1: Stone</title>
+      <link>http://localhost:1313/en/posts/06-01-2024-peradaban-1-batu/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-01-2024-peradaban-1-batu/</guid>
+      <description>Lithos #Paleolithic, Mesolithics and Neoliths are terms that refer to one age, the Stone Age.</description>
+    </item>
+    <item>
+      <title>Civilizations #2: Paleolithic</title>
+      <link>http://localhost:1313/en/posts/06-01-2024-peradaban-2-paleolithic/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-01-2024-peradaban-2-paleolithic/</guid>
+      <description>The Paleolithic period began from the c.</description>
+    </item>
+    <item>
+      <title>Epistemology</title>
+      <link>http://localhost:1313/en/posts/03-01-2024-epistemologi/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/03-01-2024-epistemologi/</guid>
+      <description>It comes from ancient Greek epistēmē which means &amp;ldquo;knowledge&amp;rdquo;, and the suffix -logi which derives from logos means &amp;ldquo;explain&amp;rdquo; or &amp;ldquo;explains about&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Sociologist Note: Ideologue and Pragmatist</title>
+      <link>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</guid>
+      <description>In solving problems, there are two approaches used, namely ideologue and pragmatist, both of these are a person&amp;rsquo;s mindset in determining the solution to the problem at hand.</description>
+    </item>
+    <item>
+      <title>Reasons why idiots isn&#39;t allowed to have democracy</title>
+      <link>http://localhost:1313/en/posts/21-12-2023-un-based-democracy/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-12-2023-un-based-democracy/</guid>
+      <description>Democracy is a form of government that is oriented to the voice of the people in a country, each individual is directly involved in any decision that will be taken by the country through voting.</description>
+    </item>
+    <item>
+      <title>WLAN Configs on Live Session Arch Linux</title>
+      <link>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
+      <description>Check your device name with ip link, wireless card devices usually have names starting with &amp;ldquo;w&amp;rdquo;, for example.</description>
+    </item>
+    <item>
+      <title>Arch Linux Installation /w UEFI</title>
+      <link>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
+      <description>Please read the requirements before starting the Arch Linux Install stage.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>Personal Blog which is filled with notes, journals, thoughts of every problem the contemporary world face with.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peradaban on Codex Detrux</title>
+    <link>http://localhost:1313/tags/peradaban/</link>
+    <description>Recent content in Peradaban on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/peradaban/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peradaban #5: Tembaga sebagai titik balik kemajuan teknologi umat manusia</title>
+      <link>http://localhost:1313/posts/20-02-2024-peradaban-5-chalcolithic/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20-02-2024-peradaban-5-chalcolithic/</guid>
+      <description>Chalcolithic (5000SM - 3000SM) adalah periode transisi antara zaman Neolithic ke zaman Perunggu.</description>
+    </item>
+    <item>
+      <title>Peradaban #4: Neolithic sebagai pionir pola kehidupan modern</title>
+      <link>http://localhost:1313/posts/06-02-2024-peradaban-4-neolithic/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/06-02-2024-peradaban-4-neolithic/</guid>
+      <description>Neolithic adalah periode final dari keseluruhan zaman batu, atau dikenal juga dengan zaman batu baru (νέος, néos, baru + λίθος, líthos, batu).</description>
+    </item>
+    <item>
+      <title>Peradaban #3: Mesolithic dan tembikar yang mulai populer</title>
+      <link>http://localhost:1313/posts/21-01-2024-peradaban-3-mesolithic/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/21-01-2024-peradaban-3-mesolithic/</guid>
+      <description>Mesolithic adalah periode transisi antara paleolithic dan Neolithic.</description>
+    </item>
+    <item>
+      <title>Peradaban #1: Batu</title>
+      <link>http://localhost:1313/posts/06-01-2024-peradaban-1-batu/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/06-01-2024-peradaban-1-batu/</guid>
+      <description>Lithos #Paleolithic, Mesolithic dan Neolithic adalah istilah yang merujuk kepada satu zaman, yaitu zaman batu.</description>
+    </item>
+    <item>
+      <title>Peradaban #2: Paleolithic</title>
+      <link>http://localhost:1313/posts/06-01-2024-peradaban-2-paleolithic/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/06-01-2024-peradaban-2-paleolithic/</guid>
+      <description>Paleolithic dimulai dari c. 3mya - c.</description>
+    </item>
+  </channel>
+</rss>

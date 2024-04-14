@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sociology on Codex Detrux</title>
+    <link>http://localhost:1313/en/tags/sociology/</link>
+    <description>Recent content in Sociology on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/sociology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sociologist Note: The Creation of Inequality</title>
+      <link>http://localhost:1313/en/posts/25-02-2024-terbentuknya-ketimpangan/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/25-02-2024-terbentuknya-ketimpangan/</guid>
+      <description>Surplus: Excess of Something #Inequality occurs because there is a surplus in the necessities.</description>
+    </item>
+    <item>
+      <title>Sociologist Note: Asabiyyah and Echo Chamber</title>
+      <link>http://localhost:1313/en/posts/14-01-2024-asabiyyah-dan-echo-chamber/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/14-01-2024-asabiyyah-dan-echo-chamber/</guid>
+      <description>The Concept of Asabiyyah in the Modern World #The concept put forward by Ibn Khaldun explains how the progress and decline of civilization is influenced by the close solidarity of a group by showing its identity.</description>
+    </item>
+    <item>
+      <title>Sociologist Note: Ideologue and Pragmatist</title>
+      <link>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</guid>
+      <description>In solving problems, there are two approaches used, namely ideologue and pragmatist, both of these are a person&amp;rsquo;s mindset in determining the solution to the problem at hand.</description>
+    </item>
+  </channel>
+</rss>

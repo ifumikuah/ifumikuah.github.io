@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on Codex Detrux</title>
+    <link>http://localhost:1313/en/tags/history/</link>
+    <description>Recent content in History on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Civilization #5: Copper as a turning point in mankind&#39;s technological progress</title>
+      <link>http://localhost:1313/en/posts/20-02-2024-peradaban-5-chalcolithic/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/20-02-2024-peradaban-5-chalcolithic/</guid>
+      <description>The Chalcolithic(5000SM - 3000SM) was a transitional period between the Neolithic and the Bronze Age.</description>
+    </item>
+    <item>
+      <title>How farming creates your relevant problem</title>
+      <link>http://localhost:1313/en/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</guid>
+      <description>When you work hard for the food you buy at the grocery store, you realize that the food you buy must have come from a farmer.</description>
+    </item>
+    <item>
+      <title>Civilizations #4: Neolithic as pioneer of modern lifestyle</title>
+      <link>http://localhost:1313/en/posts/06-02-2024-peradaban-4-neolithic/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-02-2024-peradaban-4-neolithic/</guid>
+      <description>The Neolithic is the final period of the entire stone age, also known as the new stone age (νέος, néos, new + λίθος, líthos, stone).</description>
+    </item>
+    <item>
+      <title>Civilizations #3: Mesolithic and emergence of pottery</title>
+      <link>http://localhost:1313/en/posts/21-01-2024-peradaban-3-mesolithic/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-01-2024-peradaban-3-mesolithic/</guid>
+      <description>The Mesolithic is a transitional period between the Paleolithic and Neolithic.</description>
+    </item>
+    <item>
+      <title>Civilizations #1: Stone</title>
+      <link>http://localhost:1313/en/posts/06-01-2024-peradaban-1-batu/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-01-2024-peradaban-1-batu/</guid>
+      <description>Lithos #Paleolithic, Mesolithics and Neoliths are terms that refer to one age, the Stone Age.</description>
+    </item>
+    <item>
+      <title>Civilizations #2: Paleolithic</title>
+      <link>http://localhost:1313/en/posts/06-01-2024-peradaban-2-paleolithic/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/06-01-2024-peradaban-2-paleolithic/</guid>
+      <description>The Paleolithic period began from the c.</description>
+    </item>
+  </channel>
+</rss>

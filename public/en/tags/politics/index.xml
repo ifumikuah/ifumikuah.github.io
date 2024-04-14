@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politics on Codex Detrux</title>
+    <link>http://localhost:1313/en/tags/politics/</link>
+    <description>Recent content in Politics on Codex Detrux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sociologist Note: Ideologue and Pragmatist</title>
+      <link>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/28-12-2023-ideologue-dan-pragmatis/</guid>
+      <description>In solving problems, there are two approaches used, namely ideologue and pragmatist, both of these are a person&amp;rsquo;s mindset in determining the solution to the problem at hand.</description>
+    </item>
+    <item>
+      <title>Reasons why idiots isn&#39;t allowed to have democracy</title>
+      <link>http://localhost:1313/en/posts/21-12-2023-un-based-democracy/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/21-12-2023-un-based-democracy/</guid>
+      <description>Democracy is a form of government that is oriented to the voice of the people in a country, each individual is directly involved in any decision that will be taken by the country through voting.</description>
+    </item>
+  </channel>
+</rss>
