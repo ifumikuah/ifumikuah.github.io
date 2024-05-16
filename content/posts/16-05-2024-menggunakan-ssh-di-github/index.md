@@ -5,9 +5,9 @@ description: "Prompt username dan password sangat menggangu dan juga tidak aman 
 tags: [teknologi, linux]
 ---
 
-Menggunakan SSH di GitHub dan untuk setiap operasinya kedepan, eliminasi input username dan password.
+Menggunakan SSH di GitHub dan untuk setiap operasinya kedepan, eliminasi input username dan password. Prompt username dan password sangat menggangu dan juga tidak aman dengan HTTP, gunakan SSH!
 
-### Generate SSH Key di device
+## Generate SSH Key di device
 
 ```plain
 > ssh-keygen -t rsa -b 4096 -C "github_email"
@@ -17,14 +17,14 @@ Skip (Enter) jika diminta “Enter a file in which to save the key”. Berikan p
 
 Key yang digenerate tersimpan di `~/.ssh` sebagai `id_rsa` dan `id_rsa.pub`
 
-### Jalankan SSH agent
+## Jalankan SSH agent
 
 ```plain
 > eval "$(ssh-agent -s)"
 > ssh-add ~/.ssh/id_rsa
 ```
 
-### Tambahkan key ke GitHub
+## Tambahkan key ke GitHub
 
 Jika menggunakan X11
 ```plain
