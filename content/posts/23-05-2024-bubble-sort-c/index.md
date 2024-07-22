@@ -1,6 +1,6 @@
 ---
 title: "Implementasi bubble sort di C"
-date: 2024-05-23
+date: 2024-07-22
 description: "Bubble sort di C, Bubble sort adalah algoritma sortir simpel yang cara kerjanya adalah komparasi element disampingnya"
 tags: [teknologi, c]
 ---
