@@ -5,9 +5,11 @@ description: "Bubble sort di C, Bubble sort adalah algoritma sortir simpel yang 
 tags: [teknologi, c]
 ---
 
-Bubble sort adalah algoritma sortir simpel yang cara kerjanya adalah komparasi element disampingnya. Membandingkan elemen disampingnya, jika elemen disampingnya lebih besar/kecil daripada elemen saat ini, maka akan menggeser elemen tersebut sehingga elemen-elemen tersebut memiliki urutan dari terkecil sampai terbesar atau sebaliknya.
+Bubble sort adalah algoritma sortir simpel yang cara kerjanya adalah menggeser element paling besar/kecil ke ujung array. Dengan cara membandingkan elemen disampingnya, jika elemen disampingnya lebih besar/kecil daripada elemen saat ini, maka akan menggeser elemen tersebut sehingga elemen-elemen tersebut memiliki urutan dari terkecil sampai terbesar atau sebaliknya.
 
 ![bbsort](img/img01.png "Algoritma bubble sort")
+
+{{< youtube Cq7SMsQBEUw >}}
 
 Bubble sort mudah untuk diimplementasikan, namun intensif sumber daya jika diaplikasikan untuk dataset besar.
 
@@ -16,8 +18,8 @@ Bubble sort mudah untuk diimplementasikan, namun intensif sumber daya jika diapl
 Cara mudah mengimplementasikan bubble sort di C adalah dengan tahap:
 
 1. Buat sebuah `bool` sebagai pengawas perulangan sepanjang penyortiran.
-2. Buat sebuah perulangan `while` yang akan berjalan berdasarkan kondisi `bool` tadi.
-3. Buat sebuah perulangan `for` didalam `while` yang akan meng-iterate `array` yang dibuat.
+2. Buat sebuah perulangan `for` yang akan mengulang sortir sebanyak `length-1` pengulangan.
+3. Buat sebuah perulangan `for` didalam `for` yang akan meng-iterate `array` yang dibuat.
 4. Dalam iterasi `for` tersebut, jika komparasi `element[i]` dan `element[i+1]` memenuhi syarat, maka nilainya akan saling menukar, mentrigger `bool` untuk terus mengkomparasi `element` per `element` sampai tidak ada lagi yang bisa di komparasi, alias `bool` adalah `false`.
 
 ### Buat sebuah boolean sebagai pengawas perulangan
@@ -29,23 +31,23 @@ Membuat variable tipe data `boolean` sebagai pengawas perulangan, `boolean` ini 
 #include <stdbool.h>
 
 void bsort(int array[], int length) {
-  bool swapped = true;
+  bool swapped;
 }
 ```
 
 Variable `swapped` akan mengawasi perulangan dan keseluruhan program.
 
-### Buat perulangan loop berdasarkan kondisi swapped
+### Buat perulangan for loop untuk mengulangi sortir sebanyak length-1 kali
 
-Buat while loop yang akan terus mengulang selama `swapped` bernilai `true`.
+Buat for loop yang akan terus mengulang selama `length-1` kali.
 
 ```c
 #include <stdio.h>
 #include <stdbool.h>
 
 void bsort(int array[], int length) {
-  bool swapped = true;
-  while (swapped)
+  bool swapped;
+  for (int i = 0; i < length-1; i++)
   {
     // ...
   }
@@ -61,10 +63,11 @@ Element-element didalam array akan dikomparasi didalamnya.
 #include <stdbool.h>
 
 void bsort(int array[], int length) {
-  bool swapped = true;
-  while (swapped)
+  bool swapped;
+  for (int i = 0; i < length-1; i++)
   {
-    for (int i = 0; i < length - 1; i++)
+    swapped = false;
+    for (int j = 0; j < length-i-1; j++)
     {
       // ...
     }
@@ -72,20 +75,54 @@ void bsort(int array[], int length) {
 }
 ```
 
-`i < length - 1` membuat iteration berhenti tepat pada sebuah element sebelum element terakhir. Kita tidak perlu mengcompare element terakhir, karena tidak ada yang bisa dibandingkan lagi dengan elemen tersebut.
+Jika kamu `print("%d \n")` setiap perulangan seperti dibawah ini:
+
+```c
+  for (int i = 0; i < length-1; i++)
+  {
+    printf("->%d\n", i)
+    swapped = false;
+    for (int j = 0; j < length-i-1; j++)
+    {
+      printf("  ->%d\n", i)
+    }
+  }
+```
+
+Maka hasil dari `bsort(array, 5)` akan seperti ini:
+
+```
+-> 0
+  -> 0
+  -> 1
+  -> 2
+  -> 3
+-> 1
+  -> 0
+  -> 1
+  -> 2
+-> 2
+  -> 0
+  -> 1
+-> 3
+  -> 0
+```
+
+Pengulangan sesuai dengan diagram dan visual di awal artikel ini, didalamnya nanti sub-pengulangan akan menggeser element paling besar ke kanan jika `array[j] > array[j+1]`.
 
 ### Komparasi element jika memenuhi syarat komparasi
 
-Komparasi element adalah pembanding lebih besar `>` atau lebih kecil `>`. Umumnya bubble sort akan komparasi element paling besar `>` untuk digeser ke ujung.
+Komparasi element adalah pembanding lebih besar `>` atau lebih kecil `<`. Umumnya bubble sort akan komparasi element paling besar `>` untuk digeser ke ujung.
 
 Misalkan dalam `[3, 1, 2]`, jika `3 > 1` maka akan menukar `3` di posisi `1`, dan di iterasi kedua akan menukar `3` yang ada di posisi `1` tersebut (`[1, 3, 2]`) di posisi `2`. Kita tidak perlu komparasi elemen terakhir yaitu `3` karena tidak ada lagi pembandingnya `[1, 2, 3]`.
 
 ```c
 void bsort(int array[], int length) {
-  bool swapped = true;
-  while (swapped)
+  bool swapped;
+  for (int i = 0; i < length-1; i++)
   {
-    for (int i = 0; i < length - 1; i++)
+    swapped = false
+    for (int j = 0; j < length-i-1; j++)
     {
       if (array[i] > array[i+1])
       {
@@ -95,12 +132,12 @@ void bsort(int array[], int length) {
         swapped = true;
       }
     }
-    swapped = false;
+    if (swapped == false) break;
   }
 }
 ```
 
-Perulangan akan terus berjalan ketika `swapped` adalah `true`. Maka kita perlu menghentikannya ketika tidak ada lagi yang bisa dikomparasi dengan `swapped = false` di akhir perulangan while.
+Perulangan akan terus berjalan ketika `swapped` adalah `true`. Maka kita perlu menghentikannya ketika tidak ada lagi yang bisa dikomparasi dengan `swapped == false` di akhir perulangan luar.
 
 ## Full code
 
@@ -109,10 +146,11 @@ Perulangan akan terus berjalan ketika `swapped` adalah `true`. Maka kita perlu m
 #include <stdbool.h>
 
 void bsort(int array[], int length) {
-  bool swapped = true;
-  while (swapped)
+  bool swapped;
+  for (int i = 0; i < length-1; i++)
   {
-    for (int i = 0; i < length - 1; i++)
+    swapped = false
+    for (int j = 0; j < length-i-1; j++)
     {
       if (array[i] > array[i+1])
       {
@@ -122,7 +160,7 @@ void bsort(int array[], int length) {
         swapped = true;
       }
     }
-    swapped = false;
+    if (swapped == false) break;
   }
 }
 
