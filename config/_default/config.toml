@@ -8,9 +8,11 @@ defaultContentLanguageInSubdir = true
 
 theme = "congo"
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 5
 timeZone = 'Asia/Jakarta'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 10
