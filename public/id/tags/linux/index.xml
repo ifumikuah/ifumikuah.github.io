@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Codex Detrux</title>
+    <link>http://localhost:1313/id/tags/linux/</link>
+    <description>Recent content in Linux on Codex Detrux</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimalist Linux Term</title>
+      <link>http://localhost:1313/id/posts/07-06-2024-linux-terminal-starter-pack/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/07-06-2024-linux-terminal-starter-pack/</guid>
+      <description>&lt;p&gt;Konfigurasi minimal untuk shell dan vim sebagai text editor, untuk shell menggunakan &lt;code&gt;fish&lt;/code&gt;. &lt;code&gt;fish&lt;/code&gt; memiliki syntax autosuggestion dan syntax highlighting mempermudah navigasi dan perintah.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Menggunakan SSH di GitHub dan Linux</title>
+      <link>http://localhost:1313/id/posts/16-05-2024-menggunakan-ssh-di-github/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/16-05-2024-menggunakan-ssh-di-github/</guid>
+      <description>&lt;p&gt;Menggunakan SSH di GitHub dan untuk setiap operasinya kedepan, eliminasi input username dan password. Prompt username dan password sangat menggangu dan juga tidak aman dengan HTTP, gunakan SSH!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Konfigurasi WLAN di Live Session Arch Linux</title>
+      <link>http://localhost:1313/id/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
+      <description>&lt;p&gt;Cek nama device kamu dengan &lt;code&gt;ip link&lt;/code&gt;, device wireless card biasanya punya nama berawalan “w”, misal. &lt;code&gt;wlan0&lt;/code&gt;, &lt;code&gt;wlp3s0&lt;/code&gt;. Hidupkan device tersebut dengan &lt;code&gt;ip link set nama_device up&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalasi Arch Linux /w UEFI</title>
+      <link>http://localhost:1313/id/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
+      <description>&lt;p&gt;Harap membaca persyaratan sebelum memulai tahap Instal Arch Linux.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

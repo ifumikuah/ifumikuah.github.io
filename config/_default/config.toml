@@ -4,6 +4,7 @@
 
 baseURL = "https://ifumikuah.github.io/"
 defaultContentLanguage = "id"
+defaultContentLanguageInSubdir = true
 
 theme = "congo"
 enableRobotsTXT = true

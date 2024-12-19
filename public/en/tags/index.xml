@@ -4,99 +4,99 @@
     <title>Tags on Codex Detrux</title>
     <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in Tags on Codex Detrux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
-    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opinion</title>
+      <link>http://localhost:1313/en/tags/opinion/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/en/tags/opinion/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/en/tags/tech/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdev</title>
       <link>http://localhost:1313/en/tags/webdev/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/webdev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Opinion</title>
-      <link>http://localhost:1313/en/tags/opinion/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/opinion/</guid>
       <description></description>
     </item>
     <item>
       <title>Sociology</title>
       <link>http://localhost:1313/en/tags/sociology/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/sociology/</guid>
       <description></description>
     </item>
     <item>
       <title>Teknologi</title>
       <link>http://localhost:1313/en/tags/teknologi/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/teknologi/</guid>
       <description></description>
     </item>
     <item>
       <title>Civilizations</title>
       <link>http://localhost:1313/en/tags/civilizations/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/civilizations/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
       <link>http://localhost:1313/en/tags/history/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Civilization</title>
       <link>http://localhost:1313/en/tags/civilization/</link>
-      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/civilization/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
       <link>http://localhost:1313/en/tags/philosophy/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Politics</title>
       <link>http://localhost:1313/en/tags/politics/</link>
-      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Archlinux</title>
       <link>http://localhost:1313/en/tags/archlinux/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/archlinux/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/en/tags/linux/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
       <link>http://localhost:1313/en/tags/software/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/tags/software/</guid>
       <description></description>
     </item>

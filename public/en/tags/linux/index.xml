@@ -4,24 +4,24 @@
     <title>Linux on Codex Detrux</title>
     <link>http://localhost:1313/en/tags/linux/</link>
     <description>Recent content in Linux on Codex Detrux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
-    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WLAN Configs on Live Session Arch Linux</title>
       <link>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
-      <description>Check your device name with ip link, wireless card devices usually have names starting with &amp;ldquo;w&amp;rdquo;, for example.</description>
+      <description>&lt;p&gt;Check your device name with &lt;code&gt;ip link&lt;/code&gt;, wireless card devices usually have names starting with &amp;ldquo;w&amp;rdquo;, for example. &lt;code&gt;wlan0&lt;/code&gt;, &lt;code&gt;wlp3s0&lt;/code&gt;. Turn on the device with &lt;code&gt;ip link set name_device up&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch Linux Installation /w UEFI</title>
       <link>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
-      <description>Please read the requirements before starting the Arch Linux Install stage.</description>
+      <description>&lt;p&gt;Please read the requirements before starting the Arch Linux Install stage.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

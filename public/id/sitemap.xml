@@ -4,25 +4,8 @@
   
     
       <url>
-            <loc>http://localhost:1313/posts/14-04-2024-memahami-shorthand-flex/</loc>
-            <lastmod>2024-04-14T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="id"
-              href="http://localhost:1313/posts/14-04-2024-memahami-shorthand-flex/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/</loc>
+            <lastmod>2024-12-09T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -31,8 +14,45 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/"
+              href="http://localhost:1313/id/posts/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/2024-12-09-opini-mengenai-pekerjaan-buruh-i/</loc>
+            <lastmod>2024-12-09T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/23-07-2024-implementasi-bubble-sort-linked-list/</loc>
+            <lastmod>2024-07-23T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/22-07-2024-linked-list-1/</loc>
+            <lastmod>2024-07-23T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/22-07-2024-linked-list-2/</loc>
+            <lastmod>2024-07-23T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/23-07-2024-linked-list-3/</loc>
+            <lastmod>2024-07-23T00:00:00+07:00</lastmod>
           </url>
     
   
@@ -41,11 +61,77 @@
     
   
     
+      <url>
+            <loc>http://localhost:1313/id/posts/23-05-2024-bubble-sort-c/</loc>
+            <lastmod>2024-07-22T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
   
     
       <url>
-            <loc>http://localhost:1313/posts/06-04-2024-binary-number/</loc>
-            <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/07-06-2024-linux-terminal-starter-pack/</loc>
+            <lastmod>2024-06-07T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/16-05-2024-menggunakan-ssh-di-github/</loc>
+            <lastmod>2024-05-16T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/19-04-2024-repl/</loc>
+            <lastmod>2024-04-19T00:00:00+07:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/18-04-2024-pria-kemayu/</loc>
+            <lastmod>2024-04-18T00:00:00+07:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/en/posts/18-04-2024-pria-kemayu/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="id"
+              href="http://localhost:1313/id/posts/18-04-2024-pria-kemayu/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/14-04-2024-memahami-shorthand-flex/</loc>
+            <lastmod>2024-04-14T00:00:00+07:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="id"
+              href="http://localhost:1313/id/posts/14-04-2024-memahami-shorthand-flex/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/id/posts/06-04-2024-binary-number/</loc>
+            <lastmod>2024-04-06T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -54,15 +140,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/06-04-2024-binary-number/"
+              href="http://localhost:1313/id/posts/06-04-2024-binary-number/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/06-04-2024-base-5/</loc>
-            <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/06-04-2024-base-5/</loc>
+            <lastmod>2024-04-06T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -71,22 +157,22 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/06-04-2024-base-5/"
+              href="http://localhost:1313/id/posts/06-04-2024-base-5/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/mathematics/06-04-2024-modulus/</loc>
-            <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/mathematics/06-04-2024-modulus/</loc>
+            <lastmod>2024-04-06T00:00:00+07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-i/</loc>
-            <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/01-04-2024-input-dan-form-submission-js-i/</loc>
+            <lastmod>2024-04-01T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -95,15 +181,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-i/"
+              href="http://localhost:1313/id/posts/01-04-2024-input-dan-form-submission-js-i/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-ii/</loc>
-            <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/01-04-2024-input-dan-form-submission-js-ii/</loc>
+            <lastmod>2024-04-01T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -112,38 +198,29 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/01-04-2024-input-dan-form-submission-js-ii/"
+              href="http://localhost:1313/id/posts/01-04-2024-input-dan-form-submission-js-ii/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/30-03-2024-mengubah-nasibmu-dari-0/</loc>
-            <lastmod>2024-03-29T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/30-03-2024-pendapat-mengenai-perkuliahan/</loc>
-            <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/30-03-2024-mengubah-nasibmu-dari-0/</loc>
+            <lastmod>2024-03-29T00:00:00+07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/26-02-2024-regexp/</loc>
-            <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/30-03-2024-pendapat-mengenai-perkuliahan/</loc>
+            <lastmod>2024-03-29T00:00:00+07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css/</loc>
-            <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/25-02-2024-menjinakkan-gambar-di-css/</loc>
+            <lastmod>2024-02-25T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -152,15 +229,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css/"
+              href="http://localhost:1313/id/posts/25-02-2024-menjinakkan-gambar-di-css/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css-background/</loc>
-            <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/25-02-2024-menjinakkan-gambar-di-css-background/</loc>
+            <lastmod>2024-02-25T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -169,15 +246,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/25-02-2024-menjinakkan-gambar-di-css-background/"
+              href="http://localhost:1313/id/posts/25-02-2024-menjinakkan-gambar-di-css-background/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/25-02-2024-terbentuknya-ketimpangan/</loc>
-            <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/25-02-2024-terbentuknya-ketimpangan/</loc>
+            <lastmod>2024-02-25T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -186,7 +263,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/25-02-2024-terbentuknya-ketimpangan/"
+              href="http://localhost:1313/id/posts/25-02-2024-terbentuknya-ketimpangan/"
               />
           </url>
     
@@ -197,8 +274,8 @@
   
     
       <url>
-            <loc>http://localhost:1313/posts/20-02-2024-peradaban-5-chalcolithic/</loc>
-            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/20-02-2024-peradaban-5-chalcolithic/</loc>
+            <lastmod>2024-02-20T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -207,7 +284,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/20-02-2024-peradaban-5-chalcolithic/"
+              href="http://localhost:1313/id/posts/20-02-2024-peradaban-5-chalcolithic/"
               />
           </url>
     
@@ -216,15 +293,15 @@
   
     
       <url>
-            <loc>http://localhost:1313/posts/16-02-2024-agama-refleksi-dari-pola-pikir-seseorang/</loc>
-            <lastmod>2024-02-16T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/16-02-2024-agama-refleksi-dari-pola-pikir-seseorang/</loc>
+            <lastmod>2024-02-16T00:00:00+07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/</loc>
-            <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/</loc>
+            <lastmod>2024-02-14T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -233,15 +310,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/"
+              href="http://localhost:1313/id/posts/14-02-2024-bagaimana-ucapanmu-membentuk-karaktermu/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</loc>
-            <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/</loc>
+            <lastmod>2024-02-12T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -250,15 +327,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/"
+              href="http://localhost:1313/id/posts/12-02-2024-bertani-menciptakan-masalah-yang-relevan/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/mathematics/</loc>
-            <lastmod>2024-02-08T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/mathematics/</loc>
+            <lastmod>2024-02-08T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -267,22 +344,22 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/mathematics/"
+              href="http://localhost:1313/id/mathematics/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/mathematics/08-02-2024-logaritma-i/</loc>
-            <lastmod>2024-02-08T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/mathematics/08-02-2024-logaritma-i/</loc>
+            <lastmod>2024-02-08T00:00:00+07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/06-02-2024-peradaban-4-neolithic/</loc>
-            <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/06-02-2024-peradaban-4-neolithic/</loc>
+            <lastmod>2024-02-06T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -291,31 +368,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/06-02-2024-peradaban-4-neolithic/"
+              href="http://localhost:1313/id/posts/06-02-2024-peradaban-4-neolithic/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/02-02-2024-psychology-of-nyinyir/</loc>
-            <lastmod>2024-02-02T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/31-01-2024-politik-dinasti-lebih-baik-daripada-politik-identitas/</loc>
-            <lastmod>2024-01-31T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/21-01-2024-bermain-dengan-warna-di-javasript/</loc>
-            <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/21-01-2024-bermain-dengan-warna-di-javasript/</loc>
+            <lastmod>2024-01-22T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -324,15 +385,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/21-01-2024-bermain-dengan-warna-di-javasript/"
+              href="http://localhost:1313/id/posts/21-01-2024-bermain-dengan-warna-di-javasript/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/21-01-2024-peradaban-3-mesolithic/</loc>
-            <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/21-01-2024-peradaban-3-mesolithic/</loc>
+            <lastmod>2024-01-21T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -341,15 +402,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/21-01-2024-peradaban-3-mesolithic/"
+              href="http://localhost:1313/id/posts/21-01-2024-peradaban-3-mesolithic/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/14-01-2024-asabiyyah-dan-echo-chamber/</loc>
-            <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/14-01-2024-asabiyyah-dan-echo-chamber/</loc>
+            <lastmod>2024-01-14T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -358,15 +419,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/14-01-2024-asabiyyah-dan-echo-chamber/"
+              href="http://localhost:1313/id/posts/14-01-2024-asabiyyah-dan-echo-chamber/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/06-01-2024-peradaban-1-batu/</loc>
-            <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/06-01-2024-peradaban-1-batu/</loc>
+            <lastmod>2024-01-06T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -375,15 +436,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/06-01-2024-peradaban-1-batu/"
+              href="http://localhost:1313/id/posts/06-01-2024-peradaban-1-batu/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/06-01-2024-peradaban-2-paleolithic/</loc>
-            <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/06-01-2024-peradaban-2-paleolithic/</loc>
+            <lastmod>2024-01-06T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -392,15 +453,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/06-01-2024-peradaban-2-paleolithic/"
+              href="http://localhost:1313/id/posts/06-01-2024-peradaban-2-paleolithic/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/03-01-2024-epistemologi/</loc>
-            <lastmod>2024-01-03T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/03-01-2024-epistemologi/</loc>
+            <lastmod>2024-01-03T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -409,7 +470,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/03-01-2024-epistemologi/"
+              href="http://localhost:1313/id/posts/03-01-2024-epistemologi/"
               />
           </url>
     
@@ -417,9 +478,11 @@
     
   
     
+  
+    
       <url>
-            <loc>http://localhost:1313/posts/28-12-2023-ideologue-dan-pragmatis/</loc>
-            <lastmod>2023-12-28T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/28-12-2023-ideologue-dan-pragmatis/</loc>
+            <lastmod>2023-12-28T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -428,15 +491,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/28-12-2023-ideologue-dan-pragmatis/"
+              href="http://localhost:1313/id/posts/28-12-2023-ideologue-dan-pragmatis/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/21-12-2023-un-based-democracy/</loc>
-            <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/21-12-2023-un-based-democracy/</loc>
+            <lastmod>2023-12-21T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -445,7 +508,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/21-12-2023-un-based-democracy/"
+              href="http://localhost:1313/id/posts/21-12-2023-un-based-democracy/"
               />
           </url>
     
@@ -454,8 +517,8 @@
   
     
       <url>
-            <loc>http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</loc>
-            <lastmod>2023-12-18T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</loc>
+            <lastmod>2023-12-18T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -464,7 +527,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/"
+              href="http://localhost:1313/id/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/"
               />
           </url>
     
@@ -472,11 +535,9 @@
     
   
     
-  
-    
       <url>
-            <loc>http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/</loc>
-            <lastmod>2023-12-17T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/posts/17-12-2023-instalasi-arch-uefi-quickstart/</loc>
+            <lastmod>2023-12-17T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -485,15 +546,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/posts/17-12-2023-instalasi-arch-uefi-quickstart/"
+              href="http://localhost:1313/id/posts/17-12-2023-instalasi-arch-uefi-quickstart/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
-            <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/</loc>
+            <lastmod>2023-12-16T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -502,15 +563,15 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/"
+              href="http://localhost:1313/id/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/about/</loc>
-            <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/id/about/</loc>
+            <lastmod>2023-12-16T00:00:00+07:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -519,7 +580,7 @@
             <xhtml:link
               rel="alternate"
               hreflang="id"
-              href="http://localhost:1313/about/"
+              href="http://localhost:1313/id/about/"
               />
           </url>
     

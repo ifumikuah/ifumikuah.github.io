@@ -4,73 +4,73 @@
     <title>Tech on Codex Detrux</title>
     <link>http://localhost:1313/en/tags/tech/</link>
     <description>Recent content in Tech on Codex Detrux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
-    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding shorthand flex in CSS</title>
       <link>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/14-04-2024-memahami-shorthand-flex/</guid>
-      <description>Flexbox is a 2-dimensional CSS layout that is often used for responsive screen needs.</description>
+      <description>&lt;p&gt;Flexbox is a 2-dimensional CSS layout that is often used for responsive screen needs. Each item in flex has its own &lt;code&gt;flex&lt;/code&gt; property, with values: &lt;code&gt;0 1 auto&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Base-2</title>
       <link>http://localhost:1313/en/posts/06-04-2024-binary-number/</link>
-      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/06-04-2024-binary-number/</guid>
-      <description>Base-2 is a number system based on two numbers, 0 and 1.</description>
+      <description>&lt;p&gt;Base-2 is a number system based on two numbers, 0 and 1. It&amp;rsquo;s also called the &lt;strong&gt;Binary&lt;/strong&gt; number system if you&amp;rsquo;re studying computer science.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making you own custom number system: Base-5</title>
       <link>http://localhost:1313/en/posts/06-04-2024-base-5/</link>
-      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/06-04-2024-base-5/</guid>
-      <description>After learning about Binary System, you might be wondering how to create your own number system.</description>
+      <description>&lt;p&gt;After learning about &lt;a href=&#34;../06-04-2024-binary-number/&#34;&gt;Binary System&lt;/a&gt;, you might be wondering how to create your own number system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Input and Form Submission I</title>
       <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-i/</guid>
-      <description>This article contains how to create and what are the inputs in HTML and how to process them in JS so that the data can be processed further.</description>
+      <description>&lt;p&gt;This article contains how to create and what are the inputs in HTML and how to process them in JS so that the data can be processed further.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Input and Form Submission II</title>
       <link>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/01-04-2024-input-dan-form-submission-js-ii/</guid>
-      <description>This article is a continuation of the previous one.</description>
+      <description>&lt;p&gt;This article is a continuation of the &lt;a href=&#34;../01-04-2024-input-dan-form-submission-js-i/&#34;&gt;previous one&lt;/a&gt;. Previously we created a form that is ready to be processed with Javascript.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Playing with images in CSS</title>
       <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css/</guid>
-      <description>How to deal with your images in CSS that are very difficult to control, ranging from improper proportions, improper image position, svg and so on.</description>
+      <description>&lt;p&gt;How to deal with your images in CSS that are very difficult to control, ranging from improper proportions, improper image position, svg and so on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Webdev Project: Playing colors with Javascript</title>
       <link>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</link>
-      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/21-01-2024-bermain-dengan-warna-di-javasript/</guid>
-      <description>Play with colors in JavaScript by creating a simple color palette webapp.</description>
+      <description>&lt;p&gt;Play with colors in JavaScript by creating a simple color palette webapp. This webapp will generate a color palette based on the input image.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WLAN Configs on Live Session Arch Linux</title>
       <link>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/18-12-2023-konfigurasi-wlan-live-session-arch-linux/</guid>
-      <description>Check your device name with ip link, wireless card devices usually have names starting with &amp;ldquo;w&amp;rdquo;, for example.</description>
+      <description>&lt;p&gt;Check your device name with &lt;code&gt;ip link&lt;/code&gt;, wireless card devices usually have names starting with &amp;ldquo;w&amp;rdquo;, for example. &lt;code&gt;wlan0&lt;/code&gt;, &lt;code&gt;wlp3s0&lt;/code&gt;. Turn on the device with &lt;code&gt;ip link set name_device up&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch Linux Installation /w UEFI</title>
       <link>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/17-12-2023-instalasi-arch-uefi-quickstart/</guid>
-      <description>Please read the requirements before starting the Arch Linux Install stage.</description>
+      <description>&lt;p&gt;Please read the requirements before starting the Arch Linux Install stage.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filosofi on Codex Detrux</title>
+    <link>http://localhost:1313/id/tags/filosofi/</link>
+    <description>Recent content in Filosofi on Codex Detrux</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/tags/filosofi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epistemology</title>
+      <link>http://localhost:1313/id/posts/03-01-2024-epistemologi/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/03-01-2024-epistemologi/</guid>
+      <description>&lt;p&gt;Berasal dari Bahasa Yunani kuno &lt;code&gt;epistēmē&lt;/code&gt; yang artinya “pengetahuan”, dan suffix &lt;code&gt;-logi&lt;/code&gt; yang berasal dari &lt;code&gt;logos&lt;/code&gt; artinya “menjelaskan” atau “yang menjelaskan tentang”.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sociologist Note: Ideologue dan Pragmatis</title>
+      <link>http://localhost:1313/id/posts/28-12-2023-ideologue-dan-pragmatis/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/id/posts/28-12-2023-ideologue-dan-pragmatis/</guid>
+      <description>&lt;p&gt;Dalam menyelesaikan masalah, ada dua pendekatan yang dipakai yaitu ideologue dan pragmatis, kedua ini adalah pola pikir seseorang dalam menentukan penyelesaian terhadap masalah yang dihadapi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -4,17 +4,17 @@
     <title>Teknologi on Codex Detrux</title>
     <link>http://localhost:1313/en/tags/teknologi/</link>
     <description>Recent content in Teknologi on Codex Detrux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Muhammad Fadhil Suheri</copyright>
-    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/teknologi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playing with images in CSS: Background Edition</title>
       <link>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0700</pubDate>
       <guid>http://localhost:1313/en/posts/25-02-2024-menjinakkan-gambar-di-css-background/</guid>
-      <description>There are two types of images that can be used when creating images in webdev, the &amp;lt;img&amp;gt; element method as before and the background-image method from CSS.</description>
+      <description>&lt;p&gt;There are two types of images that can be used when creating images in webdev, the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; element method as before and the &lt;code&gt;background-image&lt;/code&gt; method from CSS.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

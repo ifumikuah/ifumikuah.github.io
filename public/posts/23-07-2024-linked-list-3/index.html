@@ -1,0 +1,741 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="id"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  
+  <title>Linked List III: Swap node &middot; Codex Detrux</title>
+    <meta name="title" content="Linked List III: Swap node &middot; Codex Detrux" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
+    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.1fd4235c025c4945c8dc5ea13bee682742f9b07a91bf9974c735e873d8d90914.css"
+    integrity="sha256-H9QjXAJcSUXI3F6hO&#43;5oJ0L5sHqRv5l0xzXoc9jZCRQ="
+  />
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      Single linked list di c #3, menukar node
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/posts/23-07-2024-linked-list-3/" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/23-07-2024-linked-list-3/">
+  <meta property="og:site_name" content="Codex Detrux">
+  <meta property="og:title" content="Linked List III: Swap node">
+  <meta property="og:description" content="Single linked list di c #3, menukar node">
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-23T00:00:00+07:00">
+    <meta property="article:modified_time" content="2024-07-23T00:00:00+07:00">
+    <meta property="article:tag" content="Teknologi">
+    <meta property="article:tag" content="C">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Linked List III: Swap node">
+  <meta name="twitter:description" content="Single linked list di c #3, menukar node">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Linked List III: Swap node",
+    "headline": "Linked List III: Swap node",
+    "description": "Single linked list di c #3, menukar node",
+    "abstract": "\u003cp\u003eIde menukar antar node di linked list, hampir serupa dengan operasi delete node tapi tidak sampai menghapus nodenya.\u003c\/p\u003e",
+    "inLanguage": "id",
+    "url" : "http:\/\/localhost:1313\/posts\/23-07-2024-linked-list-3\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-07-23T00:00:00\u002b07:00",
+    "datePublished": "2024-07-23T00:00:00\u002b07:00",
+    
+    "dateModified": "2024-07-23T00:00:00\u002b07:00",
+    
+    "keywords": ["teknologi","c"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "507"
+  }
+  </script>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Lewati ke konten utama</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="z-40 flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Codex Detrux</a
+  >
+
+    </div>
+    
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-full h-full m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50"
+        >
+          <ul
+            class="flex flex-col w-full px-6 py-6 mx-auto overflow-visible list-none max-w-7xl text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                
+                <li class="mb-1 group">
+                  
+                    <a
+                      href="/posts/"
+                      title=""
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Artikel</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="mb-1 group">
+                  
+                    <a
+                      href="/mathematics/"
+                      title=""
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Math</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="mb-1 group">
+                  
+                    <a
+                      href="/tags/"
+                      title=""
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Tag</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="mb-1 group">
+                  
+                    
+                    
+                  
+                </li>
+              
+                
+                  
+              
+            
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="flex-row hidden list-none text-end sm:flex">
+        
+          
+            
+            <li class="mb-1 group sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Artikel</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="mb-1 group sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/mathematics/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Math</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="mb-1 group sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/tags/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tag</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="mb-1 group sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Linked List III: Swap node
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2024-07-23 00:00:00 &#43;0700 WIB">23 Juli 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">3 menit</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Daftar isi
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#prototype">Prototype</a></li>
+    <li><a href="#definition">Definition</a>
+      <ul>
+        <li><a href="#mencari-target-node">Mencari target node</a></li>
+        <li><a href="#menukar-next-node-dari-node-sebelumnya">Menukar next node dari node sebelumnya</a></li>
+        <li><a href="#menukar-next-node-dari-node-target">Menukar next node dari node target</a></li>
+        <li><a href="#full-code">Full Code</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <p>Ide menukar antar node di linked list, hampir serupa dengan operasi delete node tapi tidak sampai menghapus nodenya.</p>
+<p>Kita hanya perlu mengganti next node pada <code>tgt1</code> dan sebelum <code>tgt1</code>, sebalinknya lakukan juga pada <code>tgt2</code> dan sebelumnya.</p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      <img
+        class="mx-auto my-0 rounded-md"
+        
+          width="2168"
+          height="1188"
+          
+            srcset="/posts/23-07-2024-linked-list-3/img/img01_hu687453777018790019.png 330w,/posts/23-07-2024-linked-list-3/img/img01_hu14399112750606792042.png 660w,/posts/23-07-2024-linked-list-3/img/img01_hu4241824759610250944.png 1024w,/posts/23-07-2024-linked-list-3/img/img01_hu12974598911126122.png 2x"
+            src="/posts/23-07-2024-linked-list-3/img/img01_hu14399112750606792042.png"
+          
+        
+        alt="lld"
+        
+          loading="lazy"
+        
+      />
+      <figcaption class="text-center">Diagram overview operasi</figcaption>
+    </figure>
+  
+</p>
+<p>Diagram diatas akan menukar 4 dan 2.</p>
+<h2 id="prototype" class="relative group">Prototype <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prototype" aria-label="Anchor">#</a></span></h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">);</span>
+</span></span></code></pre></div><p>Dimana:</p>
+<ul>
+<li><code>Node** root</code> adalah alamat dari alamat dari struct <code>root</code>.</li>
+<li><code>Node* node1</code> alamat dari node pilihan pertama atau <code>tgt1</code>.</li>
+<li><code>Node* node2</code> alamat dari node pilihan kedua atau <code>tgt2</code>.</li>
+</ul>
+<h2 id="definition" class="relative group">Definition <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#definition" aria-label="Anchor">#</a></span></h2><p>Deklarasi <code>prv</code> dan <code>tgt</code> sebagai element sebelum target dan target itu sendiri di masing masing node.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Node</span> <span class="o">*</span><span class="n">prv1</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt1</span><span class="p">,</span> <span class="o">*</span><span class="n">prv2</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt2</span><span class="p">,</span> <span class="o">*</span><span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">prv1</span> <span class="o">=</span> <span class="n">tgt1</span> <span class="o">=</span> <span class="n">prv2</span> <span class="o">=</span> <span class="n">tgt2</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">nx</span> <span class="o">=</span> <span class="o">*</span><span class="n">root</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="mencari-target-node" class="relative group">Mencari target node <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mencari-target-node" aria-label="Anchor">#</a></span></h3><p>Kita akan mencari node dari <code>node1</code>/<code>node2</code> dan node sebelumnya.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Node</span> <span class="o">*</span><span class="n">prv1</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt1</span><span class="p">,</span> <span class="o">*</span><span class="n">prv2</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt2</span><span class="p">,</span> <span class="o">*</span><span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">prv1</span> <span class="o">=</span> <span class="n">tgt1</span> <span class="o">=</span> <span class="n">prv2</span> <span class="o">=</span> <span class="n">tgt2</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">nx</span> <span class="o">=</span> <span class="o">*</span><span class="n">root</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span><span class="n">nx</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">nx</span> <span class="o">==</span> <span class="n">node1</span><span class="p">)</span> <span class="n">tgt1</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">nx</span> <span class="o">==</span> <span class="n">node2</span><span class="p">)</span> <span class="n">tgt2</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">&amp;&amp;</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">==</span> <span class="n">node1</span><span class="p">)</span> <span class="n">prv1</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">&amp;&amp;</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">==</span> <span class="n">node2</span><span class="p">)</span> <span class="n">prv2</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">nx</span> <span class="o">=</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Lihat artikel 
+  
+  
+    
+<a href="../22-07-2024-linked-list-1/#penjelasan-mencari-ekor">sebelumnya</a> untuk mengerti cara kerja perulangan <code>nx</code>.</p>
+<h3 id="menukar-next-node-dari-node-sebelumnya" class="relative group">Menukar next node dari node sebelumnya <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#menukar-next-node-dari-node-sebelumnya" aria-label="Anchor">#</a></span></h3><p><code>prv1</code> dan <code>prv2</code> adalah node sebelum <code>node1</code>/<code>tgt1</code> dan <code>node2</code>/<code>tgt2</code>. Kita harus menukar next node dari setiap <code>prv</code> hingga menjadi seperti ini:</p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      <img
+        class="mx-auto my-0 rounded-md"
+        
+          width="2016"
+          height="622"
+          
+            srcset="/posts/23-07-2024-linked-list-3/img/img02_hu10140483838408218853.png 330w,/posts/23-07-2024-linked-list-3/img/img02_hu11153114642471929614.png 660w,/posts/23-07-2024-linked-list-3/img/img02_hu14477128578720228571.png 1024w,/posts/23-07-2024-linked-list-3/img/img02_hu10585354886673374466.png 2x"
+            src="/posts/23-07-2024-linked-list-3/img/img02_hu11153114642471929614.png"
+          
+        
+        alt="lld"
+        
+          loading="lazy"
+        
+      />
+      
+    </figure>
+  
+</p>
+<p><strong>Apa yang terjadi pada <code>prv2</code> ?</strong> Hal unik tersebut terjadi ketika <code>prv2</code> dan <code>tgt1</code> berada pada node yang sama. Hal ini selalu terjadi jika menukar node dengan node yang ada disampingnya.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="cm">/*...*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">prv1</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">root</span> <span class="o">=</span> <span class="n">tgt2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">prv1</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">prv2</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">root</span> <span class="o">=</span> <span class="n">tgt1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">prv2</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Hal unik terjadi pada <code>tgt1</code>, dimana dia tertuju ke dirinya sendiri. Ini artinya <code>tgt1-&gt;next == tgt1</code> dan hal ini wajar berdasarkan yang dialami <code>prv2</code> tadi.</p>
+<h3 id="menukar-next-node-dari-node-target" class="relative group">Menukar next node dari node target <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#menukar-next-node-dari-node-target" aria-label="Anchor">#</a></span></h3><p>Menukar next node dari <code>tgt1</code> dan <code>tgt2</code> sehingga menjadi seperti ini:</p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      <img
+        class="mx-auto my-0 rounded-md"
+        
+          width="2016"
+          height="650"
+          
+            srcset="/posts/23-07-2024-linked-list-3/img/img03_hu1890813823140105023.png 330w,/posts/23-07-2024-linked-list-3/img/img03_hu377409370546678744.png 660w,/posts/23-07-2024-linked-list-3/img/img03_hu3659077352058741592.png 1024w,/posts/23-07-2024-linked-list-3/img/img03_hu14297222776128341482.png 2x"
+            src="/posts/23-07-2024-linked-list-3/img/img03_hu377409370546678744.png"
+          
+        
+        alt="lld"
+        
+          loading="lazy"
+        
+      />
+      
+    </figure>
+  
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="cm">/*...*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Node</span><span class="o">*</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">tgt1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">tgt1</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">tgt2</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Kode diatas, <code>tmp</code> menyimpan <code>tgt1-&gt;next</code> secara <em>temporary</em> (ingat <code>tgt1-&gt;next == tgt1</code>). Setelahnya <code>tgt1-&gt;next</code> diubah menjadi <code>tgt2-&gt;next</code> atau <code>tgt1-&gt;next</code> mengarah ke node terakhir sesuai diagram.</p>
+<p>Lalu kita ubah lagi <code>tgt2-&gt;next</code> mengarah ke <code>tmp</code>, yakni <code>tgt1</code>. Dengan ini linked list berhasil tersambung lagi posisinya.</p>
+<h3 id="full-code" class="relative group">Full Code <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#full-code" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">swap_node</span><span class="p">(</span><span class="n">Node</span><span class="o">**</span> <span class="n">root</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">node2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Node</span> <span class="o">*</span><span class="n">prv1</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt1</span><span class="p">,</span> <span class="o">*</span><span class="n">prv2</span><span class="p">,</span> <span class="o">*</span><span class="n">tgt2</span><span class="p">,</span> <span class="o">*</span><span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">prv1</span> <span class="o">=</span> <span class="n">tgt1</span> <span class="o">=</span> <span class="n">prv2</span> <span class="o">=</span> <span class="n">tgt2</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">nx</span> <span class="o">=</span> <span class="o">*</span><span class="n">root</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span><span class="n">nx</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">nx</span> <span class="o">==</span> <span class="n">node1</span><span class="p">)</span> <span class="n">tgt1</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">nx</span> <span class="o">==</span> <span class="n">node2</span><span class="p">)</span> <span class="n">tgt2</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">&amp;&amp;</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">==</span> <span class="n">node1</span><span class="p">)</span> <span class="n">prv1</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">&amp;&amp;</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">==</span> <span class="n">node2</span><span class="p">)</span> <span class="n">prv2</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">nx</span> <span class="o">=</span> <span class="n">nx</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">prv1</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">root</span> <span class="o">=</span> <span class="n">tgt2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">prv1</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">prv2</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">root</span> <span class="o">=</span> <span class="n">tgt1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">prv2</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Node</span><span class="o">*</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">tgt1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">tgt1</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tgt2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">tgt2</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+    <div class="place-self-center">
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/23-05-2024-bubble-sort-c/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Implementasi bubble sort di C</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-07-22 00:00:00 &#43;0700 WIB">22 Juli 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/posts/22-07-2024-linked-list-2/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Linked List II: Delete dan free node</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-07-23 00:00:00 &#43;0700 WIB">23 Juli 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Gulir ke atas"
+              title="Gulir ke atas"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2024 Muhammad Fadhil Suheri
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Dipersembahkan oleh <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex items-center justify-center w-12 h-12 dark:hidden"
+              title="Beralih ke tampilan gelap"
+            >
+              <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="items-center justify-center hidden w-12 h-12 dark:flex"
+              title="Beralih ke tampilan terang"
+            >
+              <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
